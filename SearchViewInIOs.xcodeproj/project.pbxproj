@@ -12,6 +12,8 @@
 		FB9921C61E6F867D003719CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9921C41E6F867D003719CF /* Main.storyboard */; };
 		FB9921C81E6F867D003719CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9921C71E6F867D003719CF /* Assets.xcassets */; };
 		FB9921CB1E6F867D003719CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9921C91E6F867D003719CF /* LaunchScreen.storyboard */; };
+		FB9921D31E6F86A4003719CF /* Dispositivo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9921D21E6F86A4003719CF /* Dispositivo.swift */; };
+		FB9921D51E6F8C26003719CF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9921D41E6F8C26003719CF /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB9921C71E6F867D003719CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB9921CA1E6F867D003719CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB9921CC1E6F867D003719CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9921D21E6F86A4003719CF /* Dispositivo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispositivo.swift; sourceTree = "<group>"; };
+		FB9921D41E6F8C26003719CF /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FB9921C71E6F867D003719CF /* Assets.xcassets */,
 				FB9921C91E6F867D003719CF /* LaunchScreen.storyboard */,
 				FB9921CC1E6F867D003719CF /* Info.plist */,
+				FB9921D21E6F86A4003719CF /* Dispositivo.swift */,
+				FB9921D41E6F8C26003719CF /* TableViewCell.swift */,
 			);
 			path = SearchViewInIOs;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9921C31E6F867D003719CF /* ViewController.swift in Sources */,
+				FB9921D51E6F8C26003719CF /* TableViewCell.swift in Sources */,
+				FB9921D31E6F86A4003719CF /* Dispositivo.swift in Sources */,
 				FB9921C11E6F867D003719CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
